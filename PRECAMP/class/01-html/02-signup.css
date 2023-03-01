@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+.box{
+  margin-top: 60px;
+  margin-left: 625px;
+  margin-bottom: 60px;
+  margin-right: 625px;
+  width: 670px;
+  height: 960px;
+
+  background-color: white;
+  border: 1px solid #AACDFF;
+  box-shadow: 7px 7px 39px
+      rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+h1{
+  width: 466px;
+  height: 94px;
+  margin-bottom: 50px;
+
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+
+  color: #0068FF;
+}
+.checking{
+  width: 168px;
+  height: 23.65px;
+
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #797979;
+}
+.text{
+  width: 466px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.selectbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gender{
+  width: 20px;
+  height: 19.95px;
+
+  background: #EBEBEB;
+  border: 1px solid #D2D2D2;
+
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+/* identical to box height */
+  color: #000000;
+
+}
+.check{
+  width: 20px;
+  height: 20px;
+
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 3px;
+}
+.jull{
+  width: 470px;
+  height: 1px;
+  background: #E6E6E6;
+}
+button{
+  width: 470px;
+  height: 75px;
+
+  background: #FFFFFF;
+  border: 1px solid #0068FF;
+  border-radius: 10px;
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0078FF;
+  
+}
+/* .register{
+  width: 70px;
+  height: 27px;
+
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0078FF;
+} */
